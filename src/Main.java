@@ -56,7 +56,7 @@ public class Main {
 
     }
 
-    public class Cupcake {
+    public static class Cupcake {
         public double price;
 
         public double getPrice() {
@@ -74,7 +74,7 @@ public class Main {
 
     }
 
-    class RedVelvet extends Cupcake {
+    static class RedVelvet extends Cupcake {
 
         @Override
         public void type() {
@@ -82,7 +82,7 @@ public class Main {
         }
     }
 
-    class Chocolate extends Cupcake {
+    static class Chocolate extends Cupcake {
 
         @Override
         public void type() {
